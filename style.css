@@ -11,23 +11,17 @@ h1 {
   margin-bottom: 10px;
 }
 
-#presentacion {
-  text-align: center;
-  padding: 0px;
-  background-color: #ecf0f1;
-  margin-bottom: 0px;
-}
 
-#presentacion h1 {
-  font-size: 2rem;
-}
 
 img {
   border-radius: 20% 10% 20% 10%;
-
-  width: 40%;
+  background-color: #ffffff;
+  max-width: 500px;
+  width: 100%;
   height: 25%;
 }
+
+.presentacion,
 .hobbies,
 .actividad {
   padding: 20px;
@@ -38,9 +32,26 @@ img {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+.tabla {
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 400px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.imagen {
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 200px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
 .hobbies ul,
 .actividad ul {
-  margin: 0;
+  margin: 0px;
   padding: 0 20px;
 }
 
@@ -48,6 +59,7 @@ img {
 .actividad li {
   margin-bottom: 5px;
 }
+
 .tabla table {
   padding: 5%;
 }
@@ -55,16 +67,18 @@ img {
 .tabla {
   background-color: #ffffff;
   border-radius: 8px;
-  
+
 }
 
 .tabla th {
   background-color: #3498db;
   color: white;
+  padding-bottom: 5%;
 }
 
 .tabla td {
   background-color: #f4f4f4;
+  padding: 1px 2px 1px 2px;
 }
 
 /* Formulario */
