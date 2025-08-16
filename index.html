@@ -9,56 +9,72 @@
   </head>
   <body >
     <div class="container">
-      <div class="row">
-        <div id="Biografia" class=" col-12 col-lg-6 text-right">
-          <h1 style="text-align: center;">Adrian Gomez</h1>
+      <div class="row text-light">
+        <h1 style="text-align: center;" class="text-light">Desarrollador back-end</h1>
+        <div id="Biografia" class="col-12 col-lg-6 text-light p-3 text-right">
+          <h1>Adrian Gomez</h1>
           <div class="col-4">
             <img src="img/foto.jpg" class="float-start me-3 mb-3" alt="descripcion"/>
           </div>
-          <div class="col-12">
+          <div id="texto" class="col-12 text-light p-3 text-dark">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam officia doloremque itaque minima deserunt deleniti accusamus inventore, cupiditate eius voluptates eos vitae voluptatum recusandae, voluptate, veritatis reiciendis eveniet alias quasi!</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, fugiat aut nisi dolorem, accusamus totam non quos quibusdam neque corrupti magni pariatur. Facilis eius ad nisi obcaecati culpa eligendi. Tempore?</p>
           </div>
         </div>
-        <div id="descripcion" class="col-12 col-lg-6">
-          <h2>Pasatiempos</h2>
+        <div id="descripcion" class="col-12 col-lg-6 ">
+          <br>
+          <h2>Habilidades</h2>
             <ul>
-              <li>Estudiar la biblia</li>
-              <li>Jugar futbol</li>
-              <li>Tocar piano</li>
-              <li>Jugar videojuegos</li>
+              <li><span class="badge text-bg-primary">BOOTSTRAP</span></li>
+              <li><span class="badge text-bg-primary">CONTROL DE VERSIONES</span></li>
+              <li><span class="badge text-bg-primary">DESARROLLO WEB</span></li>
+              <li><span class="badge text-bg-primary">PYTHON</span></li>
             </ul>
-          <h2>Objetivos de la actividad</h2>
-            <ol>
+          <h2>Educacion</h2>
+            <ul>
               <li>
-                Comprender y aplicar la estructura básica de un documento HTML,
-                utilizando etiquetas esenciales
+                <span class="badge text-bg-dark">Técnico en programación de software - SENA: 2023 - Septiembre 2023</span>
               </li>
               <li>
-                Crear una página web funcional que incluya imágenes, enlaces, listas,
-                tablas y un formulario básico.
+                <span class="badge text-bg-dark">Bootcamp de programación - UniLibre (Talento tech): Mayo 2025</span>
               </li>
               <li>
-                Aprender a vincular un archivo de estilos para mejorar la presentación
-                visual de la página.
+                <span class="badge text-bg-dark">Introducción a base de datos - Coursera: Junio 2025</span>
               </li>
-            </ol>
-            <a href="https://www.coursera.org/user/2a0897160f0886b3d8cedef2f2876c83" class="btn btn-primary">Meta</a>
-            <a href="https://www.instagram.com/agomez_04g?igsh=ZzFqY3R5NXlhb3Rm" class="btn btn-danger">instagram</a><br><br>
-            <a href="https://www.facebook.com/share/1HSiE4AQcX/" class="btn btn-primary">facebook</a>
-            <a href="https://github.com/Adrian04g" class="btn btn-dark">Github</a>
+              <li>
+                <span class="badge text-bg-dark">Introducción a desarrollo web - Coursera: Julio 2025</span>
+              </li>
+              <li>
+                <span class="badge text-bg-dark">Programación en Python - Coursera: Julio - Agosto 2025</span>
+              </li>
+              <li>
+                <span class="badge text-bg-dark">Control de versiones - Coursera: Agosto 2025</span>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
+        <a target="_blank" href="https://www.coursera.org/user/2a0897160f0886b3d8cedef2f2876c83" class="btn btn-primary">facebook</a>
+        <a target="_blank" href="https://www.instagram.com/agomez_04g?igsh=ZzFqY3R5NXlhb3Rm" class="btn btn-danger">instagram</a>
+        <a target="_blank" href="https://www.facebook.com/share/1HSiE4AQcX/" class="btn btn-primary"><img src="https://play-lh.googleusercontent.com/GguSSKNcZdGw624xa9VqH71Sy6B12bHdlINY0RN_CltpzE51NgdFWkxesZuI4joVDrM" alt="icono" style="width:20px; vertical-align:middle;"> Coursera</a>
+        <a target="_blank" href="https://github.com/Adrian04g" class="btn btn-dark"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbqj9Ii13d6hx5a9kyLnC5A8A96LDSaSZv_w&s" alt="icono" style="width:20px; vertical-align:middle;"> Github</a>
         <div class="form">
-          <form action>
-            <h2>Formulario de contacto</h2>
-            <input required type="text" id="nombre" placeholder="Nombre"/>
-            <input required type="text" id="descripcion" placeholder="Motivo de contacto"/>
-            <input required type="email" id="correo" placeholder="correo"/>
-            <button type="submit">Enviar informacion</button>
+          <form class="formulario" >
+            <h2 class="text-light">Formulario de contacto</h2>
+            <div class="bg-secondary"><br>
+              <label class="text-light">Nombre</label><br>
+              <input required type="text" id="nombre" placeholder=""/><br>
+              <label class="text-light">Motivo de contacto</label><br>
+              <input required type="text" id="descripcion" placeholder=""/><br>
+              <label class="text-light">Correo</label><br>
+              <input required type="email" id="correo" placeholder=""/><br><br>
+              <button type="submit">Enviar informacion</button>
+            </div>
           </form>
         </div>
     </div>
+    <footer class="text-center text-light mt-5 p-1" style="background-color: #343a40;">
+      <p>© 2025 Adrian Gomez. Todos los derechos reservados.</p>
+    </footer>
       <script src="main.js"></script> 
       <script src="bootstrap.bundle.min.js"></script>
   </body>
